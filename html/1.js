@@ -12,7 +12,7 @@ window.onload = function () {
                 let s = ''
                 for (const c of this.输入) {
                     if (d[c])
-                        s += `<span style="color:blue">${c}</span>`
+                        s += `<span style="color:blue">${d[c]}</span>`
                     else
                         s += c
                 }
